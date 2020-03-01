@@ -2,7 +2,6 @@
 
 /**
  * 获取数据库连接
- *
  * @param $host
  * @param $username
  * @param $password
