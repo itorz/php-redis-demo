@@ -2,10 +2,7 @@
 
 /**
  * 获取数据库连接
-<<<<<<< Updated upstream
-=======
  *lib
->>>>>>> Stashed changes
  * @param $host
  * @param $username
  * @param $password
