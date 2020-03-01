@@ -1,4 +1,10 @@
 <?php
+/*
+*
+* 主业务主要功能是接收两个参数:姓名和手机号,将这两个参数作为用户信息写入用户表,写入成功后插入一条消息到消息队列register_users,并且发送消息OK到频道register_success
+*
+*
+ */
 require './lib.php';
 $name = $argv[1];
 $mobile = $argv[2];

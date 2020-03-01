@@ -1,4 +1,9 @@
 <?php
+/*
+*Worker的主要功能是订阅频道register_success,如果收到消息且消息内容是OK就从队列register_users获取并消费消息
+*
+*
+ */
 require './lib.php';
 $redis = getRedis();
 $redis->subscribe(['register_success'], function ($instance, $channelName, $message){
